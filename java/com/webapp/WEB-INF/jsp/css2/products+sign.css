@@ -1,0 +1,181 @@
+/*仅仅修改product部分*/
+.product-top ul li a.dropdown-toggle {
+    color: #fff;
+	padding: 1.2em 0;
+}
+.product-top ul li a span.caret {
+    margin-left: 8px;
+}
+.product-top ul.dropdown-menu {
+    margin-top: 11px;
+    border-color: #bbb;
+} 
+.product-grids {
+    margin-top: 3em;
+}
+.agile-products {
+    padding: 1.5em;
+    border: 1px solid #e4e4e4;
+	position: relative;
+    overflow: hidden;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	transition:.5s all;
+}
+.agile-product-text h5{ 
+    font-size: 1em;
+    line-height: 1.8em;
+    font-family: 'Offside', cursive;
+	margin-top: 1em;
+    text-transform: capitalize;
+}
+.agile-product-text h5 a {
+    color: #0280e1; 
+}
+.agile-product-text h5 a:hover ,.related-row h4 a:hover{
+    color: #000;
+}
+.agile-product-text h6 {
+    margin: 0.5em 0 0;
+    font-size: 1em;
+    color: #333;
+}
+.agile-product-text h6 del {
+    color: #999;
+    margin-right: 0.5em;
+}
+.w3ls-cart.pw3ls-cart {
+    position: absolute;
+    width: 75%;
+    bottom: -50%;
+	-webkit-transition: .6s all;
+	-moz-transition: .6s all;
+	-o-transition: .6s all;
+    transition: .6s all;
+    font-size: 1em;
+    padding: .8em 0;
+    background: rgba(244, 67, 54, 0.87); 
+}
+.w3ls-cart.pw3ls-cart  i.fa {
+    margin-right: 5px;
+}
+.agile-products:hover  .w3ls-cart.pw3ls-cart{
+	bottom: 35%;
+}
+.agile-products:hover {
+    border-color: #f44336;
+}
+.w3ls-add-grids.w3agile-add-products {
+    float: none;
+    width: 100%;
+    margin: 2em 0 1em;
+    text-align: center;
+}
+.w3ls-add-grids.w3agile-add-products a h6 {
+    color: #fff;
+}
+/*-- //products-right --*/ 
+input.item_quantity {
+    background: none;
+    border: 1px solid #fff;
+    padding: 0.8em 1em;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+	outline: none;
+    color: #fff;
+}
+input.item_quantity:hover{
+	border-color: #000;
+}
+/*-- faq --*/
+.sidebar-row .faq li {
+    margin-top: 0.8em;
+    display: block;
+}
+.faq > li > a {
+    width: 100%;
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+.faq > li > a:hover,.faq > li >a.active{
+	color: #000;
+}
+.faq li a.active span {
+	-webkit-transform: rotatex(180deg);
+	transform: rotatex(180deg);
+	-moz-transform: rotatex(180deg);
+	-o-transform: rotatex(180deg);
+	-ms-transform: rotatex(180deg);
+}
+.faq ul li a {
+    line-height: 1.8em;
+    display: block;
+    position: relative;
+    font-size: 1em;
+    color: #999;
+    text-decoration: none;
+	font-weight: 400;
+    padding-left: 1.5em;
+}
+.faq ul li a:hover{
+    color: #ff590f;
+}
+.faq span.glyphicon {
+    float: right;
+}
+/*-- //faq --*/ 
+.related-row {
+    border: 1px solid #ccc;
+    padding: 1.2em;
+    margin-top: 1em;
+}
+.related-row ul li{
+    display:inline-block;
+}
+.related-row ul li a {
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    display: block;
+    margin: 5px 0px;
+    color: #999;
+	font-size:1em;
+}
+.related-row ul li a:hover{
+    border-color:#009688; 
+    color: #009688;
+}
+.recommend {
+    margin-top: 4em;
+}
+.products{
+    padding-top: 30px;
+}
+/*-- //products-page --*/
+.login-page input[type="submit"].getCode{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: #0280e1;
+    width: 70%;
+    padding: .8em 1em;
+    font-size: 0.8em;
+    margin: 0.5em 0 0;
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all;
+    -o-transition:.5s all;
+    -ms-transition:.5s all;
+    transition:.5s all;
+    text-transform: uppercase;
+    -webkit-appearance:none;
+    position: relative;
+    bottom: 8px;
+    height: 35px;
+}
